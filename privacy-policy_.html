@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade — Marketing Manager</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #0d0d0d; --ink-soft: #3a3a3a; --ink-muted: #7a7a7a;
+      --rule: #e2e2e2; --bg: #fafaf8; --accent: #0a66c2;
+      --accent-light: #e8f0fb; --surface: #ffffff;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--ink); font-size: 16px; line-height: 1.75; }
+    header { background: var(--surface); border-bottom: 1px solid var(--rule); padding: 0 2rem; position: sticky; top: 0; z-index: 100; }
+    .header-inner { max-width: 860px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .logo { font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 700; color: var(--ink); letter-spacing: -.5px; }
+    .logo span { color: var(--accent); }
+    .badge { font-size: .7rem; font-weight: 500; text-transform: uppercase; letter-spacing: .1em; color: var(--ink-muted); background: var(--accent-light); padding: .25rem .75rem; border-radius: 99px; }
+    .hero { background: var(--surface); border-bottom: 1px solid var(--rule); padding: 4rem 2rem 3rem; }
+    .hero-inner { max-width: 860px; margin: 0 auto; }
+    .hero-label { font-size: .75rem; font-weight: 500; text-transform: uppercase; letter-spacing: .12em; color: var(--accent); margin-bottom: 1rem; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; line-height: 1.15; color: var(--ink); max-width: 640px; margin-bottom: 1.25rem; }
+    .hero-meta { display: flex; gap: 2rem; flex-wrap: wrap; font-size: .875rem; color: var(--ink-muted); }
+    .hero-meta strong { color: var(--ink-soft); font-weight: 500; }
+    .toc-wrap { max-width: 860px; margin: 2.5rem auto; padding: 0 2rem; }
+    .toc { background: var(--accent-light); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 1.5rem 2rem; }
+    .toc h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .1em; font-weight: 600; color: var(--accent); margin-bottom: 1rem; }
+    .toc ol { padding-left: 1.25rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: .25rem .5rem; }
+    .toc a { color: var(--ink-soft); text-decoration: none; font-size: .9rem; transition: color .15s; }
+    .toc a:hover { color: var(--accent); }
+    .content { max-width: 860px; margin: 0 auto 5rem; padding: 0 2rem; }
+    section { margin-top: 3rem; }
+    .section-number { font-size: .7rem; font-weight: 600; text-transform: uppercase; letter-spacing: .15em; color: var(--accent); margin-bottom: .5rem; }
+    section h2 { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; color: var(--ink); margin-bottom: 1rem; padding-bottom: .75rem; border-bottom: 1px solid var(--rule); }
+    p { margin-bottom: 1rem; color: var(--ink-soft); }
+    p:last-child { margin-bottom: 0; }
+    ul, ol { margin: .75rem 0 1rem 1.5rem; color: var(--ink-soft); }
+    li { margin-bottom: .4rem; }
+    .highlight { background: var(--accent-light); border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0; padding: 1rem 1.25rem; margin: 1.25rem 0; font-size: .95rem; color: var(--ink-soft); }
+    table { width: 100%; border-collapse: collapse; margin: 1.25rem 0; font-size: .9rem; }
+    th { background: var(--ink); color: #fff; text-align: left; padding: .65rem 1rem; font-weight: 500; }
+    td { border-bottom: 1px solid var(--rule); padding: .65rem 1rem; color: var(--ink-soft); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: var(--bg); }
+    a { color: var(--accent); }
+    footer { background: var(--ink); color: #ccc; padding: 2.5rem 2rem; text-align: center; font-size: .85rem; }
+    footer strong { color: #fff; }
+    @media (max-width: 600px) { .hero-meta { flex-direction: column; gap: .5rem; } .toc ol { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">Marketing <span>Manager</span></div>
+    <span class="badge">Política de Privacidade</span>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="hero-inner">
+    <p class="hero-label">Documento Legal</p>
+    <h1>Política de Privacidade</h1>
+    <div class="hero-meta">
+      <span><strong>Versão:</strong> 1.0</span>
+      <span><strong>Última atualização:</strong> 06 de março de 2025</span>
+      <span><strong>Vigência:</strong> A partir da data de publicação</span>
+    </div>
+  </div>
+</div>
+
+<div class="toc-wrap">
+  <nav class="toc">
+    <h2>Índice</h2>
+    <ol>
+      <li><a href="#s1">Identificação do Controlador</a></li>
+      <li><a href="#s2">Dados Coletados</a></li>
+      <li><a href="#s3">Finalidade do Tratamento</a></li>
+      <li><a href="#s4">Base Legal</a></li>
+      <li><a href="#s5">Uso das APIs do LinkedIn e Instagram</a></li>
+      <li><a href="#s6">Compartilhamento de Dados</a></li>
+      <li><a href="#s7">Retenção e Exclusão</a></li>
+      <li><a href="#s8">Segurança</a></li>
+      <li><a href="#s9">Direitos do Usuário</a></li>
+      <li><a href="#s10">Cookies</a></li>
+      <li><a href="#s11">Transferência Internacional</a></li>
+      <li><a href="#s12">Menores de Idade</a></li>
+      <li><a href="#s13">Alterações nesta Política</a></li>
+      <li><a href="#s14">Contato e DPO</a></li>
+    </ol>
+  </nav>
+</div>
+
+<main class="content">
+
+  <div class="highlight">
+    Esta Política de Privacidade descreve como a aplicação <strong>Marketing Manager</strong> coleta, utiliza, armazena e protege as informações dos usuários, em conformidade com a <strong>Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018)</strong>, o <strong>Regulamento Geral de Proteção de Dados da União Europeia (GDPR — Regulation EU 2016/679)</strong>, as políticas de uso das APIs do <strong>LinkedIn</strong> e do <strong>Instagram (Meta)</strong>, e demais legislações aplicáveis.
+  </div>
+
+  <section id="s1">
+    <p class="section-number">Seção 01</p>
+    <h2>Identificação do Controlador de Dados</h2>
+    <p>O controlador responsável pelo tratamento dos dados pessoais coletados por meio da aplicação Marketing Manager é a empresa ou pessoa física desenvolvedora desta aplicação ("nós", "nosso" ou "Marketing Manager").</p>
+    <p>Para exercer seus direitos ou obter informações adicionais, o usuário pode entrar em contato pelo e-mail indicado na <a href="#s14">Seção 14</a> desta Política.</p>
+  </section>
+
+  <section id="s2">
+    <p class="section-number">Seção 02</p>
+    <h2>Dados Coletados</h2>
+    <p>Para prestar os serviços de agendamento de publicações e análise de desempenho, coletamos as seguintes categorias de dados:</p>
+    <table>
+      <thead><tr><th>Categoria</th><th>Dados Específicos</th><th>Origem</th></tr></thead>
+      <tbody>
+        <tr><td>Dados de Identificação</td><td>Nome completo, endereço de e-mail, foto de perfil</td><td>Autenticação OAuth (LinkedIn / Meta)</td></tr>
+        <tr><td>Dados de Conta nas Redes Sociais</td><td>ID de usuário, nome de perfil público, URL do perfil</td><td>APIs do LinkedIn e Instagram</td></tr>
+        <tr><td>Tokens de Acesso</td><td>Access tokens e refresh tokens OAuth 2.0</td><td>Fluxo de autorização OAuth</td></tr>
+        <tr><td>Conteúdo de Publicações</td><td>Textos, imagens, vídeos e metadados das postagens criadas e agendadas pelo usuário</td><td>Fornecidos diretamente pelo usuário</td></tr>
+        <tr><td>Dados de Desempenho</td><td>Impressões, alcance, engajamento, cliques, seguidores, taxa de crescimento</td><td>APIs do LinkedIn e Instagram</td></tr>
+        <tr><td>Dados de Uso da Aplicação</td><td>Logs de acesso, funcionalidades utilizadas, preferências de configuração</td><td>Coleta automática pelo sistema</td></tr>
+        <tr><td>Dados Técnicos</td><td>Endereço IP, tipo e versão do navegador, sistema operacional, fuso horário</td><td>Coleta automática pelo sistema</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="s3">
+    <p class="section-number">Seção 03</p>
+    <h2>Finalidade do Tratamento de Dados</h2>
+    <p>Tratamos os dados coletados exclusivamente para as seguintes finalidades:</p>
+    <ul>
+      <li><strong>Autenticação e acesso:</strong> verificar a identidade do usuário e permitir login seguro na plataforma;</li>
+      <li><strong>Agendamento de publicações:</strong> programar posts para LinkedIn e Instagram nas datas e horários definidos pelo usuário;</li>
+      <li><strong>Publicação automatizada:</strong> realizar o envio das publicações às redes sociais por meio das APIs autorizadas;</li>
+      <li><strong>Análise de desempenho:</strong> coletar e processar métricas das publicações para exibir relatórios e dashboards de performance;</li>
+      <li><strong>Notificações:</strong> enviar alertas sobre publicações agendadas, erros de postagem ou relatórios disponíveis;</li>
+      <li><strong>Suporte técnico:</strong> diagnosticar problemas e prestar assistência ao usuário;</li>
+      <li><strong>Melhoria do produto:</strong> analisar padrões de uso de forma agregada e anonimizada para aprimorar funcionalidades;</li>
+      <li><strong>Conformidade legal:</strong> cumprir obrigações legais e regulatórias aplicáveis.</li>
+    </ul>
+    <div class="highlight"><strong>Importante:</strong> não utilizamos os dados das contas de redes sociais dos usuários para qualquer finalidade além das descritas acima. Não vendemos, alugamos ou compartilhamos dados pessoais para fins de publicidade de terceiros.</div>
+  </section>
+
+  <section id="s4">
+    <p class="section-number">Seção 04</p>
+    <h2>Base Legal para o Tratamento</h2>
+    <p>O tratamento dos dados pessoais está fundamentado nas seguintes bases legais, conforme a LGPD e o GDPR:</p>
+    <ul>
+      <li><strong>Execução de contrato (Art. 7º, V – LGPD / Art. 6º(b) – GDPR):</strong> os dados são necessários para prestar os serviços contratados pelo usuário, como agendamento e publicação de conteúdo;</li>
+      <li><strong>Consentimento (Art. 7º, I – LGPD / Art. 6º(a) – GDPR):</strong> para funcionalidades opcionais, o consentimento é solicitado de forma explícita e pode ser revogado a qualquer momento;</li>
+      <li><strong>Legítimo interesse (Art. 7º, IX – LGPD / Art. 6º(f) – GDPR):</strong> para fins de segurança da plataforma, prevenção a fraudes e melhoria dos serviços;</li>
+      <li><strong>Cumprimento de obrigação legal (Art. 7º, II – LGPD / Art. 6º(c) – GDPR):</strong> quando exigido por lei ou por autoridades competentes.</li>
+    </ul>
+  </section>
+
+  <section id="s5">
+    <p class="section-number">Seção 05</p>
+    <h2>Uso das APIs do LinkedIn e Instagram</h2>
+    <p>Nossa aplicação utiliza as APIs oficiais do <strong>LinkedIn</strong> e do <strong>Instagram (Meta)</strong> mediante autorização expressa do usuário por meio do protocolo OAuth 2.0. O acesso às contas só é realizado após consentimento explícito e dentro dos escopos de permissão autorizados.</p>
+    <p><strong>Escopos solicitados no LinkedIn:</strong></p>
+    <ul>
+      <li><code>r_liteprofile</code> / <code>r_basicprofile</code> — leitura de dados básicos do perfil;</li>
+      <li><code>r_emailaddress</code> — leitura do endereço de e-mail;</li>
+      <li><code>w_member_social</code> — criação e publicação de posts em nome do usuário;</li>
+      <li><code>r_organization_social</code> — leitura de dados de páginas organizacionais (quando aplicável);</li>
+      <li><code>w_organization_social</code> — publicação em páginas organizacionais (quando aplicável);</li>
+      <li><code>r_1st_connections_size</code> — dados agregados de conexões para análise de alcance.</li>
+    </ul>
+    <p><strong>Escopos solicitados no Instagram (via Meta Graph API):</strong></p>
+    <ul>
+      <li><code>instagram_basic</code> — acesso básico ao perfil;</li>
+      <li><code>instagram_content_publish</code> — publicação de conteúdo;</li>
+      <li><code>instagram_manage_insights</code> — acesso a métricas e dados de desempenho;</li>
+      <li><code>pages_read_engagement</code> — leitura de métricas de páginas vinculadas.</li>
+    </ul>
+    <div class="highlight">Os tokens de acesso são armazenados de forma criptografada e utilizados exclusivamente para executar as ações autorizadas pelo usuário. O usuário pode revogar o acesso da aplicação a qualquer momento diretamente nas configurações de segurança do LinkedIn ou Instagram/Meta.</div>
+    <p>Cumprimos integralmente os <strong>Termos de Uso da API do LinkedIn</strong> e as <strong>Políticas da Plataforma Meta</strong>, incluindo as restrições sobre uso, armazenamento e compartilhamento dos dados obtidos por meio dessas APIs.</p>
+  </section>
+
+  <section id="s6">
+    <p class="section-number">Seção 06</p>
+    <h2>Compartilhamento de Dados com Terceiros</h2>
+    <p>Não vendemos dados pessoais. O compartilhamento ocorre somente nas seguintes hipóteses:</p>
+    <ul>
+      <li><strong>Provedores de infraestrutura e nuvem:</strong> para hospedagem, armazenamento e processamento dos dados, sempre sob contratos que garantem nível adequado de proteção;</li>
+      <li><strong>APIs do LinkedIn e Instagram/Meta:</strong> ao publicar conteúdo ou buscar métricas, os dados necessários são transmitidos conforme autorizado pelo usuário;</li>
+      <li><strong>Ferramentas de analytics (anonimizados):</strong> dados de uso agregados e sem identificação pessoal para análise de desempenho da plataforma;</li>
+      <li><strong>Autoridades competentes:</strong> quando exigido por lei, ordem judicial ou processo legal válido;</li>
+      <li><strong>Sucessores em caso de fusão ou aquisição:</strong> os usuários serão previamente notificados.</li>
+    </ul>
+  </section>
+
+  <section id="s7">
+    <p class="section-number">Seção 07</p>
+    <h2>Retenção e Exclusão de Dados</h2>
+    <p>Mantemos os dados pessoais apenas pelo tempo necessário para cumprir as finalidades descritas nesta Política ou por exigência legal.</p>
+    <table>
+      <thead><tr><th>Tipo de Dado</th><th>Prazo de Retenção</th></tr></thead>
+      <tbody>
+        <tr><td>Dados de conta e perfil</td><td>Enquanto a conta estiver ativa + 30 dias após exclusão</td></tr>
+        <tr><td>Tokens de acesso OAuth</td><td>Até a revogação pelo usuário ou expiração natural</td></tr>
+        <tr><td>Histórico de publicações</td><td>12 meses ou até solicitação de exclusão</td></tr>
+        <tr><td>Dados de desempenho/métricas</td><td>24 meses ou até solicitação de exclusão</td></tr>
+        <tr><td>Logs de sistema</td><td>90 dias</td></tr>
+        <tr><td>Dados para obrigações legais</td><td>Conforme exigência da legislação aplicável</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="s8">
+    <p class="section-number">Seção 08</p>
+    <h2>Segurança dos Dados</h2>
+    <p>Adotamos medidas técnicas e organizacionais adequadas para proteger os dados pessoais, incluindo:</p>
+    <ul>
+      <li>Criptografia de dados em trânsito via TLS 1.2+;</li>
+      <li>Criptografia de dados em repouso (AES-256) para informações sensíveis, especialmente tokens de acesso;</li>
+      <li>Controle de acesso baseado em funções (RBAC) com autenticação de múltiplos fatores para equipe interna;</li>
+      <li>Auditorias e revisões periódicas de segurança;</li>
+      <li>Monitoramento contínuo de acessos e alertas de atividade anômala;</li>
+      <li>Plano de resposta a incidentes com notificação aos usuários afetados dentro de 72 horas.</li>
+    </ul>
+    <p>Em caso de violação de dados, notificaremos a Autoridade Nacional de Proteção de Dados (ANPD) e os titulares afetados conforme previsto pela LGPD.</p>
+  </section>
+
+  <section id="s9">
+    <p class="section-number">Seção 09</p>
+    <h2>Direitos do Usuário (Titular dos Dados)</h2>
+    <p>Nos termos da LGPD e do GDPR, o usuário possui os seguintes direitos:</p>
+    <ul>
+      <li><strong>Acesso:</strong> obter confirmação sobre o tratamento e acessar uma cópia dos seus dados;</li>
+      <li><strong>Retificação:</strong> corrigir dados incompletos, inexatos ou desatualizados;</li>
+      <li><strong>Exclusão ("direito ao esquecimento"):</strong> solicitar a eliminação dos dados quando não forem mais necessários;</li>
+      <li><strong>Portabilidade:</strong> receber os dados em formato estruturado e interoperável;</li>
+      <li><strong>Oposição:</strong> opor-se ao tratamento com base em legítimo interesse;</li>
+      <li><strong>Revogação do consentimento:</strong> retirar o consentimento a qualquer momento;</li>
+      <li><strong>Informação sobre compartilhamento:</strong> saber com quem os dados foram compartilhados;</li>
+      <li><strong>Reclamação à ANPD:</strong> registrar reclamação perante a Autoridade Nacional de Proteção de Dados.</li>
+    </ul>
+    <p>Para exercer qualquer um desses direitos, entre em contato pelo e-mail indicado na <a href="#s14">Seção 14</a>. Responderemos em até <strong>15 dias úteis</strong>.</p>
+  </section>
+
+  <section id="s10">
+    <p class="section-number">Seção 10</p>
+    <h2>Cookies e Tecnologias Semelhantes</h2>
+    <p>Utilizamos cookies e tecnologias similares para garantir o funcionamento da plataforma:</p>
+    <ul>
+      <li><strong>Cookies essenciais:</strong> necessários para autenticação e segurança da sessão. Não podem ser desativados;</li>
+      <li><strong>Cookies de preferências:</strong> armazenam configurações como idioma e fuso horário. Podem ser recusados;</li>
+      <li><strong>Cookies analíticos (anonimizados):</strong> coletam dados agregados sobre o uso da plataforma. Podem ser recusados.</li>
+    </ul>
+  </section>
+
+  <section id="s11">
+    <p class="section-number">Seção 11</p>
+    <h2>Transferência Internacional de Dados</h2>
+    <p>Seus dados poderão ser processados em servidores localizados fora do Brasil. Nesse caso, garantimos que as transferências são realizadas apenas para países com nível adequado de proteção ou mediante salvaguardas adequadas, como Cláusulas Contratuais Padrão (SCCs) aprovadas pela Comissão Europeia e mecanismos reconhecidos pela ANPD.</p>
+  </section>
+
+  <section id="s12">
+    <p class="section-number">Seção 12</p>
+    <h2>Menores de Idade</h2>
+    <p>Nossa plataforma é destinada exclusivamente a usuários maiores de 18 anos. Não coletamos intencionalmente dados de menores de idade. Caso tomemos conhecimento de que dados de menores foram coletados sem o consentimento de responsável legal, procederemos à exclusão imediata.</p>
+  </section>
+
+  <section id="s13">
+    <p class="section-number">Seção 13</p>
+    <h2>Alterações nesta Política de Privacidade</h2>
+    <p>Esta Política poderá ser atualizada periodicamente. Alterações relevantes serão comunicadas com antecedência mínima de 10 dias por meio de aviso em destaque na plataforma e/ou notificação por e-mail. O uso continuado da plataforma após a entrada em vigor das alterações implica na aceitação da nova versão.</p>
+  </section>
+
+  <section id="s14">
+    <p class="section-number">Seção 14</p>
+    <h2>Contato e Encarregado de Dados (DPO)</h2>
+    <p>Para exercer seus direitos, tirar dúvidas ou reportar qualquer questão relacionada à privacidade, entre em contato com nosso Encarregado de Dados (DPO):</p>
+    <div class="highlight">
+      <strong>Marketing Manager — Encarregado de Dados (DPO)</strong><br />
+      E-mail: <strong>contato@sirros.net</strong><br />
+      Horário de atendimento: segunda a sexta, 9h às 18h (horário de Brasília)<br />
+      Prazo de resposta: até 15 dias úteis
+    </div>
+    <p>Esta Política foi elaborada em conformidade com a <strong>LGPD (Lei nº 13.709/2018)</strong>, o <strong>GDPR (Regulation EU 2016/679)</strong>, os <strong>Termos de Uso da API do LinkedIn</strong> e as <strong>Políticas da Plataforma Meta/Instagram</strong>.</p>
+  </section>
+
+</main>
+
+<footer>
+  <p><strong>Marketing Manager</strong> &nbsp;·&nbsp; Política de Privacidade &nbsp;·&nbsp; Versão 1.0 &nbsp;·&nbsp; Atualizada em 06/03/2025</p>
+  <p style="margin-top:.5rem; font-
